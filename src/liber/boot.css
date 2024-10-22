@@ -1,0 +1,28 @@
+#card{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+     justify-self: center;
+    
+
+
+}
+
+.Card:hover{
+
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: white; /* Light text for contrast */
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+#details{
+    background-color: green;
+}
+

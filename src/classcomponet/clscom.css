@@ -1,0 +1,16 @@
+.Boot{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   row-gap: 10px;
+   column-gap: 10px;
+}
+
+.card:hover{
+    background-color: #ff6f61;
+     transform: scale(1.0);
+     transition-duration: 1s;
+     box-shadow: 2px 3px 4px rgb(83, 81, 81);
+  
+
+}
