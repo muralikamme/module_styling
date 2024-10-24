@@ -8,7 +8,11 @@ import './App.css'
 
 //import  Restaurant
 
-import Restaurant from './classcomponet/Rest'
+// import Restaurant from './classcomponet/Rest'
+
+// import Parent from './classprops/clsprop1'
+
+import Increment from './counter/increment'
 
 
 
@@ -25,7 +29,9 @@ function App() {
     {/* <Boot/> */}
 
 
-    <Restaurant/>
+    {/* <Restaurant/> */}
+    {/* <Parent/> */}
+    <Increment/>
 
     </>
   )
